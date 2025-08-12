@@ -9,8 +9,8 @@ def show_notification(title, message):
     toaster.show_toast(title, message, duration=5)
 
 # Email alert (configure your email details!)
-EMAIL_ADDRESS = "spykeemani1124@gmail.com"
-EMAIL_PASSWORD = "iapl ezzo ivov chkw"
+EMAIL_ADDRESS = "abcde@gmail.com"
+EMAIL_PASSWORD = "--------------" # 16 digit password #
 TO_EMAIL = "admin_email@example.com"
 
 def send_email_alert(subject, body):
@@ -27,6 +27,7 @@ def send_email_alert(subject, body):
             print("[+] Email alert sent.")
     except Exception as e:
         print("[-] Failed to send email:", e)
+
 
 
 
